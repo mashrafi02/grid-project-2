@@ -1,0 +1,601 @@
+/* font-family: "Montserrat", serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;;
+}
+
+body{
+    background: #F9FAFC;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+/* ########################## navbar start here ################################ */
+.nav-wrapper{
+    margin-top: 50px;
+    margin-bottom: 76px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.nav-wrapper .menu ul{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: end;
+    column-gap: 45.5px;
+}
+
+.nav-wrapper .menu ul li a{
+    color: #838383;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.nav-wrapper .menu ul li a:hover{
+    color: #8671FC;
+}
+/* ########################## navbar end here ################################ */
+
+
+/* ########################## banner start here ################################ */
+.banner-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.banner-wrapper .heading h3{
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.banner-wrapper .heading h3 strong{
+    color: #F05D7B;
+}
+
+.banner-wrapper .heading h1{
+    max-width: 471px;
+    color: #222;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner-wrapper .heading p{
+    max-width: 471px;
+    color: #838383;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: 0.2px;
+    margin-bottom: 50px;
+}
+
+.banner-wrapper .heading .banner-buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    align-items: center;
+    column-gap: 35px;
+}
+
+.banner-wrapper .heading .banner-buttons a:first-child{
+    display: inline-block;
+    padding: 20.5px 49px;
+    border-radius: 30px;
+    background: #8671FC;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-wrapper .heading .banner-buttons a:last-child{
+    color: #8671FC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-wrapper .heading .banner-buttons a i{
+    margin-left: 27px;
+    height: 14px;
+}
+/* ########################## banner end here ################################ */
+
+
+/* ########################## about start here ################################ */
+#about{
+    margin-top: 32px;
+    background: url(../images/Oval\ +\ Oval\ Mask.png) no-repeat center;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+
+.about-wrapper{
+    padding: 150px 50px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+    column-gap: 51px;
+}
+
+.about-wrapper .left h3{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+.about-wrapper .left h2{
+    max-width: 580px;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-bottom: 30px;
+}
+
+.about-wrapper .left p{
+    max-width: 500px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-bottom: 70px;
+}
+
+.about-wrapper .left a{
+    color: #FFF;
+    text-align: right;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.about-wrapper .left i{
+    height: 14px;
+    margin-left: 12px;
+}
+
+.about-wrapper .right h2{
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-bottom: 30px;
+}
+
+.about-wrapper .right p{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+}
+
+.about-wrapper .right a{
+    display: inline-block;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+/* ########################## about end here ################################ */
+
+
+/* ########################## skills start here ################################ */
+#skills{
+    margin-bottom: 150px;
+}
+
+.skills-wrapper .heading h3{
+    margin: 0 auto;
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.skills-wrapper .heading h2{
+    margin: 0 auto;
+    color: #222;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
+.skills-wrapper .skills{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 30px;
+}
+
+.skills-wrapper .skills .item{
+    padding: 50px;
+    border: 1px solid #F9FAFC;
+    box-shadow: 0px 30px 25px 0px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
+}
+
+.skills-wrapper .skills .item:hover{
+    background: url(../images/Oval.png) no-repeat;
+    background-color: #F05D7B;
+    border: none;
+}
+
+.skills-wrapper .skills .item h3{
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.skills-wrapper .skills .item p{
+    color: #838383;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-bottom: 40px;
+}
+
+.skills-wrapper .skills .item a{
+    display: inline-block;
+    color: #8671FC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.skills-wrapper .skills .item a i{
+    margin-left: 24px;
+    line-height: 16px;
+}
+
+.skills-wrapper .skills .item:hover h3{
+    color: #FFF;
+}
+.skills-wrapper .skills .item:hover p{
+    color: #FFF;
+}
+.skills-wrapper .skills .item:hover a{
+    color: #FFF;
+}
+/* ########################## skills end here ################################ */
+
+
+/* ########################## portfolio start here ################################ */
+#portfolio{
+    margin-bottom: 150px;
+}
+
+.portfolio-wrapper .heading h3{
+    margin: 0 auto;
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.portfolio-wrapper .heading h2{
+    margin: 0 auto;
+    color: #222;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.portfolio-wrapper .heading ul{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    column-gap: 50px;
+    margin-bottom: 70px;
+}
+
+.portfolio-wrapper .heading ul li{
+    color: #838383;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.portfolio-wrapper .heading ul li:hover{
+    color: #8671FC;
+    cursor: pointer;
+}
+
+.portfolio-wrapper .items{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 30px;
+}
+
+.portfolio-wrapper .items .item{
+    width: 370px;
+    height: 334px;
+    background:#CECECE;
+}
+/* ########################## portfolio end here ################################ */
+
+
+/* ########################## testimonials start here ################################ */
+#testimonial{
+    margin-bottom: 100px;
+}
+
+.testimonials-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 95px;
+}
+
+.testimonials-wrapper .heading h3{
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.testimonials-wrapper .heading h2{
+    max-width: 270px;
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-bottom: 25px;
+}
+
+.testimonials-wrapper .heading p{
+    max-width: 311px;
+    color: #838383;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: 0.2px;
+    margin-bottom: 100px;
+}
+
+.testimonials-wrapper .heading .btn{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    column-gap: 30px;
+}
+
+.testimonials-wrapper .heading .btn span{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.testimonials-wrapper .heading .btn span:hover{
+    color: #FFF;
+    background: #8671FC;
+}
+
+.testimonials-wrapper .testimonials{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: end;
+    column-gap: 155px;
+}
+
+.testimonials-wrapper .testimonials .testimonial p{
+    max-width: 280px;
+    margin-top: 22px;
+    color: #838383;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-bottom: 56px;
+}
+
+.testimonials-wrapper .testimonials .testimonial h3{
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.testimonials-wrapper .testimonials .testimonial span{
+    color: #838383;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+}
+/* ########################## testimonials end here ################################ */
+
+
+/* ########################## sponsers start here ################################ */
+.sponser-wrapper .sponsers{
+    display: grid;
+    grid-template-columns: repeat(5,162px);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    column-gap: 32px;
+    margin-bottom: 100px;
+}
+/* ########################## sponsers end here ################################ */
+
+
+/* ########################## footer start here ################################ */
+#footer{
+    background: url(../images/Oval\ +\ Oval\ Mask2.png) no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer-wrapper .heading h3{
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-wrapper .heading h2{
+    margin: 0 auto;
+    max-width: 421px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-bottom: 50px;
+}
+
+.footer-wrapper .heading .btn{
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+.footer-wrapper .heading .btn a{
+    display: inline-block;
+    padding: 20.5px 49.5px;
+    border-radius: 30px;
+    background: #8671FC;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.line{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 50px;
+}
+
+.footer-wrapper .ending h3{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.footer-wrapper .ending p{
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.2px;
+}
+/* ########################## footer end here ################################ */
